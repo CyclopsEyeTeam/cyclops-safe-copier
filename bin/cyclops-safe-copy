@@ -1,0 +1,4 @@
+#!/bin/sh
+# Cyclops Safe Copier launcher — resolves its own location so it can be symlinked into ~/.local/bin
+HERE="$(dirname "$(readlink -f "$0")")"
+exec python3 "$HERE/../cyclops_safe_copy.py" "$@"

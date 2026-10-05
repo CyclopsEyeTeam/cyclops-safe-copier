@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d2b3a"/><stop offset="1" stop-color="#0d151e"/>
+    </linearGradient>
+    <radialGradient id="iris" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7ff3e1"/><stop offset="0.65" stop-color="#14a89a"/><stop offset="1" stop-color="#0b5f59"/>
+    </radialGradient>
+  </defs>
+  <rect x="12" y="12" width="232" height="232" rx="48" fill="url(#bg)"/>
+  <!-- the copy: a faint second eye outline offset behind -->
+  <path d="M44 120 Q128 44 212 120 Q128 196 44 120 Z" fill="none" stroke="#3a5670" stroke-width="6" transform="translate(10 12)"/>
+  <!-- the eye -->
+  <path d="M40 116 Q128 36 216 116 Q128 196 40 116 Z" fill="#eef5f8"/>
+  <circle cx="128" cy="116" r="44" fill="url(#iris)"/>
+  <circle cx="128" cy="116" r="19" fill="#06121a"/>
+  <circle cx="114" cy="101" r="8" fill="#ffffff" opacity="0.9"/>
+  <!-- verified badge -->
+  <circle cx="190" cy="190" r="36" fill="#1f9d63" stroke="#0d151e" stroke-width="7"/>
+  <path d="M172 190 l12 13 l24 -26" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
